@@ -12,7 +12,7 @@
 <body>
   <div id="page">
     <header id="header">
-      <h1><small>ITMD 362&#x3a; <!--Fall-->Spring 2022</small> Human-Computer Interaction and Web Design</h1>
+      <h1><small>ITMD 362&#x3a; <!--Update-->Spring 2023</small> Human-Computer Interaction and Web Design</h1>
       <p class="tagline">
         Principles and practices of HCI through a mobile-first approach to web design and development.
         Taught by <a href="#instructor">Professor Daniel Krieglstein</a>. Course developed by IIT Professors
@@ -38,7 +38,7 @@
         <section class="topics">
           <h3>Topic Schedule&#58;</h3>
           <div id="class_schedule">
-            <button class="accordion"><!--UPDATE-->08/25 &#8212; Week 1</button>
+            <button class="accordion"><!--UPDATE-->01/12 &#8212; Week 1</button>
             <div class="panel">
               <h4 class="topic">Class Intro HTML review</h4>
               <ol class="alignleft">
@@ -56,7 +56,7 @@
               </li>
               </ol>
             </div>
-            <button class="accordion"><!--UPDATE-->09/01 &#8212; Week 2</button>
+            <button class="accordion"><!--UPDATE-->01/19 &#8212; Week 2</button>
             <div class="panel">
               <h4 class="topic">CSS Review, Relative Units</h4>
               <ol class="alignleft">
@@ -65,7 +65,7 @@
                 </li>
               </ol>
             </div>
-                        <button class="accordion"><!--UPDATE-->09/08 &#8212; Week 3</button>
+                        <button class="accordion"><!--UPDATE-->01/26 &#8212; Week 3</button>
             <div class="panel">
               <h4 class="topic">JS Review, Responsive Design</h4>
               <ol class="alignleft">
@@ -78,7 +78,7 @@
                 <li>MDN <a href="https://developer.mozilla.org/en-US/Apps/Progressive/Responsive/responsive_design_building_blocks">The building blocks of responsive design</a></li>
               </ol>
             </div>
-            <button class="accordion"><!--UPDATE-->09/15 &#8212; Week 4</button>
+            <button class="accordion"><!--UPDATE-->02/02 &#8212; Week 4</button>
             <div class="panel">
               <h4 class="topic">Touchscreen, and forms</h4>
               <ol class="alignleft">
@@ -91,7 +91,7 @@
                 <li>MDN: <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms">HTML Forms Guide</a></li>
               </ol>
             </div>
-            <button class="accordion"><!--UPDATE-->09/22 &#8212; Week 5</button>
+            <button class="accordion"><!--UPDATE-->02/09 &#8212; Week 5</button>
             <div class="panel">
               <h4 class="topic">Typography</h4>
               <ol class="alignleft">
@@ -100,7 +100,7 @@
                 </li>
               </ol>
             </div>
-            <button class="accordion"><!--UPDATE-->09/29 &#8212; Week 6</button>
+            <button class="accordion"><!--UPDATE-->02/16 &#8212; Week 6</button>
             <div class="panel">
               <h4 class="topic">Interface Typography</h4>
               <ol class="alignleft">
@@ -109,7 +109,7 @@
                 </li>
               </ol>
             </div>
-            <button class="accordion"><!--UPDATE-->10/06 &#8212; Week 7</button>
+            <button class="accordion"><!--UPDATE-->02/23 &#8212; Week 7</button>
             <div class="panel">
             <h4 class="topic">Colors</h4>
               <ol class="alignleft">
@@ -124,7 +124,7 @@
                 </li>
               </ol>
             </div>
-            <button class="accordion"><!--UPDATE-->10/13 &#8212; Week 8</button>
+            <button class="accordion"><!--UPDATE-->03/02 &#8212; Week 8</button>
             <div class="panel">
               <h4 class="topic">Material Design</h4>
               <ol class="alignleft">
@@ -136,14 +136,18 @@
                 <li>Val Head, <a href="https://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity">Designing Safer Web Animation For Motion Sensitivity</a></li>
               </ol>
             </div>
-            <button class="accordion"><!--UPDATE-->10/20 &#8212; Week 9</button>
+            <button class="accordion"><!--UPDATE-->03/09 &#8212; Week 9</button>
             <div class="panel">
               <h4 class="topic">Motion</h4>
               <ol class="alignleft">
                 <li>Cheung, <a href="http://www.uxbooth.com/articles/styling-forms-accessibly/">Styling Forms Accessibly</a></li>
               </ol>
             </div>
-            <button class="accordion"><!--UPDATE-->10/27 &#8212; Week 10</button>
+            <button class="accordion"><!--UPDATE-->03/16 &#8212; NO CLASS! Spring Break</button>
+            <div class="panel">
+              <h4 class="topic">Homework: Have Fun!</h4>
+            </div>
+            <button class="accordion"><!--UPDATE-->03/23 &#8212; Week 10</button>
             <div class="panel">
               <h4 class="topic">HCI Guidelines, Ethics</h4>
               <ol class="alignleft">
@@ -155,7 +159,7 @@
                 <li>GNOME Desktop, <a href="https://developer.gnome.org/hig/stable/">Human Interface Guidelines</a></li>
               </ol>
             </div>
-            <button class="accordion"><!--UPDATE-->11/03 &#8212; Week 11</button>
+            <button class="accordion"><!--UPDATE-->03/30 &#8212; Week 11</button>
             <div class="panel">
               <h4 class="topic">Usability Testing</h4>
                 <ol class="alignleft">
@@ -167,7 +171,7 @@
                   </li>
                 </ol>
             </div>
-            <button class="accordion"><!--UPDATE-->11/10 &#8212; Week 12</button>
+            <button class="accordion"><!--UPDATE-->04/06 &#8212; Week 12</button>
             <div class="panel">
               <h4 class="topic">Usability</h4>
               <ol class="alignleft">
@@ -176,7 +180,7 @@
                 </li>
               </ol>
             </div>
-            <button class="accordion"><!--UPDATE-->11/17 &#8212; Week 13</button>
+            <button class="accordion"><!--UPDATE-->04/13 &#8212; Week 13</button>
             <div class="panel">
               <h4 class="topic">Emotional Design</h4>
               <ol class="alignleft">
@@ -185,11 +189,11 @@
                 </li>
               </ol>
             </div>
-            <button class="accordion"><!--UPDATE-->No Class/Thanksgiving Break</button>
+            <button class="accordion"><!--UPDATE-->04/20 &#8212; Week 14</button>
             <div class="panel">
-              <h4 Class="topic">Class Holiday</h4>
-            </div>           
-            <button class="accordion"><!--UPDATE-->12/01 &#8212; Week 14</button>
+              <h4 class="topic">TBA</h4>
+            </div>            
+            <button class="accordion"><!--UPDATE-->04/27 &#8212; Week 14</button>
             <div class="panel">
               <h4 class="topic">Lab: Final Project</h4>
             </div>   
