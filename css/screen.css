@@ -150,6 +150,24 @@ h4 {
   font-size: 1em;
 }
 
+.boxheader {
+  background-color: #777;
+  color: #333;
+  cursor: pointer;
+  padding: 0.6315789474em;
+  width: 100%;
+  text-align: center;
+  border: 1px solid #594e51;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.height-fix{
+  height: auto !important;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
 /* ========== Layout ========== */
 
 html {
@@ -416,6 +434,7 @@ td {
   text-align: center;
   border: 1px solid #594e51;
   font-weight: bold;
+  font-size: 1em;
   transition: 0.2s;
 }
 .accordion h3{

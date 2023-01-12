@@ -214,7 +214,7 @@
           <button class="homework">
             <h3>Labs</h3>
           </button>
-          <div class="panel">
+          <div>
           <p class="redfont">Work which fails HTML or CSS validation will receive a 50&#x25; point reduction!</p>
             <table>
               <tr class="tablehead">
@@ -272,7 +272,7 @@
           <button class="homework">
             <h3>Projects</h3>
           </button>
-          <div class="panel">
+          <div>
             <p class="redfont">Work which fails HTML or CSS validation will receive a 50&#x25; point reduction!</p>
             <table>            
               <tr class="tablehead">

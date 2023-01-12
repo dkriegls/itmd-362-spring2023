@@ -6,7 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
   <link rel="stylesheet" href="css/screen.css" media="screen" />
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-  <script async src="js/site.js"></script>
+  <!--<script async src="js/site.js"></script>-->
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script>
+    $( function() {
+      $( "#accordion" ).accordion();
+    } );
+  </script>
 </head>
 <body>
   <div id="page">
@@ -26,13 +33,15 @@
         </ul>
       </nav>
     </header>
+    
     <main>
       <section class="primary">
         <h2 class="label">Major Projects</h2>
-        <button class="accordion">
+      <div id="accordion">
+        <div class="boxheader">
           <h3>Project One: On-boarding</h3>
-        </button>
-        <div class="panel">
+        </div>
+        <div class="height-fix">
           <section id="project-one" class="description">
             <h4>Project Description</h4>
             <p>
@@ -159,10 +168,10 @@
             </ul>
           </section>
         </div>
-        <button class="accordion">
+        <div class="boxheader">
           <h3>Project Two: Website Redesign</h3>
-        </button>
-        <div class="panel">
+        </div>
+        <div class="height-fix">
           <section id="project-two" class="description">
             <h4>Project Description</h4>
             <p>
@@ -303,10 +312,10 @@
             </ul>
           </section>
         </div>
-        <button class="accordion">
+        <div class="boxheader">
           <h3>Project Three: User-Tested, Revised Web Portal</h3>
-        </button>
-        <div class="panel">
+        </div>
+        <div class="height-fix">
           <section id="project-three" class="description">
             <h4>Project Description</h4>
             <p>
@@ -383,6 +392,7 @@
             </ul>
           </section>
         </div>
+      </div>  
       </section>
     </main>
     <footer id="footer">
