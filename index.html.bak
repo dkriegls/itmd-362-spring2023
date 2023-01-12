@@ -6,9 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
   <link rel="stylesheet" href="css/screen.css" media="screen" />
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-  <script async src="js/site.js"></script>
-  <script async src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-</head>
+  <!--<script async src="js/site.js"></script>-->
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script>
+    $( function() {
+      $( "#accordion" ).accordion();
+    } );
+  </script>
 <body>
   <div id="page">
     <header id="header">
@@ -37,7 +42,7 @@
         </p>
         <section class="topics">
           <h3>Topic Schedule&#58;</h3>
-          <div id="class_schedule">
+          <div id="accordion">
             <button class="accordion"><!--UPDATE-->01/12 &#8212; Week 1</button>
             <div class="panel">
               <h4 class="topic">Class Intro HTML review</h4>
@@ -203,9 +208,10 @@
             </div>
           </div>         
         </section>
+        
         <section class="due-dates">
           <h3>Homework Schedule</h3>
-          <button class="accordion">
+          <button class="homework">
             <h3>Labs</h3>
           </button>
           <div class="panel">
@@ -263,7 +269,7 @@
               </tr>
             </table>
           </div>
-          <button class="accordion">
+          <button class="homework">
             <h3>Projects</h3>
           </button>
           <div class="panel">
@@ -325,7 +331,7 @@
                 <td><a href="projects.html#project-three">Project Three</a></td>
               </tr>
               <tr>
-                <td><!--UPDATE-->12/01</td>
+                <td><!--UPDATE-->04/27</td>
                 <td class="alignleft">Week 14</td>
                 <td class="alignleft">First and Only Turn In</td>
               </tr>
