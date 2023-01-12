@@ -1,0 +1,99 @@
+
+/* BASE STYLES  
+  ====================================================================================== */
+
+/*
+  Major Sixth Modular Scale:
+  http://www.modularscale.com/?22&px&1.667&web&text
+*/
+
+html {
+  font-family: 'Bowlby One', cursive;
+  font-size: 1.375em; /* 22px */
+  line-height: 1.182em; /* 26px / ~ 120% */
+  padding: 1.182em; /* 26px / ~ 120% */
+}
+
+h1, p {
+  padding-bottom: 1.182em; /* 26px / ~ 120% */
+}
+
+label {
+  display: block;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 78px;
+  padding: 26px;
+  border: 0;
+  border-radius: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  background-color: #DDD;
+}
+
+span {
+  display: block;
+  padding-top: 0.5em;
+}
+
+#input-submit {
+  width: 100%;
+  margin: auto;
+}
+
+input[type="email"] {
+  padding-bottom: 1.182em; /* 26px / ~ 120% */
+}
+
+input[type="checkbox"] {
+  width: auto;
+  height: auto;
+  float: left;
+  -ms-transform: scale(1.2); /* IE */
+  -moz-transform: scale(1.2); /* FF */
+  -webkit-transform: scale(1.2); /* Safari and Chrome */
+  -o-transform: scale(1.2); /* Opera */
+}
+
+input[type="checkbox"] + label {
+  display: inline;
+}
+
+#clear {
+  color: white;
+}
+
+/* ===== MODULAR STYLES ===== */
+form li {
+  padding-bottom: 1.182em; /* 26px / ~ 120% */
+}
+
+#age-verification + label {
+  display: block;
+  padding-left: 20px;
+}
+
+/*.hasjs class will only exist if js runs*/
+.hasjs #input-email {
+  position: relative;
+}
+
+.hasjs ::placeholder {
+  color: #DDD;
+}
+.hasjs #input-email label {
+  color: black;
+  transition: top 1s;
+  position: absolute;
+  top: 26px;
+  left: 100px;
+}
+
+.hasjs #input-email label.active {
+  top: -25px;
+}
+

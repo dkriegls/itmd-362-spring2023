@@ -1,0 +1,59 @@
+label {
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  width: 97%;
+  margin: 0 1.5%;
+}
+
+input {
+  box-sizing: border-box;
+  width: 97%;
+  padding: 12px 20px;
+  margin: 8px 1.5%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.fontsize {
+  font-size: 1.3em;
+}
+
+@media screen and (min-width: 510px) {
+  #container {
+    text-align: center;
+    margin: 3% auto 0 auto;
+    width: 65%;
+  }
+
+  .fontsize {
+    font-size: 1.2em;
+  }
+  
+  input {
+    width: 100%;
+  }
+  
+  #submit {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #container {
+    width: 450px;
+    float: right;
+    margin-right: 3%;
+  }
+    
+  .font-size {
+    font-size: 1em;
+  }
+  
+  #submit {
+    width: 26%;
+  }
+}

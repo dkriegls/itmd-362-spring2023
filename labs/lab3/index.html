@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" class="nojs">
+<head>
+  <title>HTML Form Elements</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" />
+  <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css" />
+  <link rel="stylesheet" media="screen" href="css/screen.css" />
+</head>
+<body>
+<main id="content">
+  <form method="get" action="#null">
+    <h1>Secret Diabetes Newsletter</h1>
+    <p>
+      Sign up and learn 5 secrets to fight Diabetes!
+    </p>
+    <ol>
+      <li id="input-email">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" pattern="^.+@.+$" />
+      </li>
+      <li id="input-age-verification">
+        <input type="checkbox" id="age-verification" name="age-verification" value="18" />
+        <label for="age-verification">I am over 18 years old</label>
+      </li>
+      <li id="input-submit">
+        <input type="submit" name="submit" id="submit" value="Subscribe" />
+      </li>
+    </ol>
+  </form>
+</main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/site.js"></script>
+</body>
+</html>

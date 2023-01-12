@@ -1,0 +1,53 @@
+htlm {
+   line-height: 1.2em;
+   font-family: tahoma;
+   font-size: 15px;
+}
+
+input {
+    height: 30px;
+    width: 98%;
+}
+
+#wrap {
+  margin: 0 auto;
+  width: 95%;
+}
+
+div { 
+  width: 50%;
+  margin: 0 auto;
+  )
+}
+
+label {
+  display: block;
+  background-color: #66ccff;
+  text-align: center;
+  height: 30px;
+}
+
+@media screen and (min-width: 620px) {
+  label {
+    display: inline-block;
+    color: white;
+    background-color: red;
+    margin-right: 5px;
+    font-size: 1.3em;
+    width: 30%;
+    height: 20px;
+
+  }
+  
+  input{
+    width: 30%;
+    float: clear;
+    height: 20px;
+   
+  }
+  
+  div {
+    display: inline;
+    
+  }
+}
